@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  AboutViewController.swift
 //  Brokerage_app
 //
 //  Created by Ahmed Aboalwafa on 2/16/19.
@@ -8,13 +8,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class AboutViewController: UIViewController {
 
+    @IBOutlet weak var ABOUT: UITextView!
+    @IBOutlet weak var TheImage: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
 
+    }
+    
 
 }
-

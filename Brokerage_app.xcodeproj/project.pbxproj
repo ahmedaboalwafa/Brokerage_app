@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3954C4479844BAAAC88B56F4 /* Pods_Brokerage_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 543C912AF525D6887E2CDD46 /* Pods_Brokerage_app.framework */; };
+		BB1A0920222722A5007A645F /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1A091F222722A5007A645F /* CollectionViewCell.swift */; };
+		BB1A092222272393007A645F /* collData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1A092122272393007A645F /* collData.swift */; };
+		BB1A7A832218BC39001CB2B2 /* NewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1A7A822218BC39001CB2B2 /* NewData.swift */; };
 		BB94E9CA2218354600B150DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB94E9C92218354600B150DC /* AppDelegate.swift */; };
 		BB94E9CC2218354600B150DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB94E9CB2218354600B150DC /* ViewController.swift */; };
 		BB94E9CF2218354600B150DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB94E9CD2218354600B150DC /* Main.storyboard */; };
 		BB94E9D12218354700B150DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB94E9D02218354700B150DC /* Assets.xcassets */; };
 		BB94E9D42218354700B150DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB94E9D22218354700B150DC /* LaunchScreen.storyboard */; };
-		BB94E9DF2218354700B150DC /* Brokerage_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB94E9DE2218354700B150DC /* Brokerage_appTests.swift */; };
-		BB94E9EA2218354800B150DC /* Brokerage_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB94E9E92218354800B150DC /* Brokerage_appUITests.swift */; };
+		BB94E9F92218359A00B150DC /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB94E9F82218359A00B150DC /* SearchViewController.swift */; };
+		BB94E9FD221836C100B150DC /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB94E9FC221836C100B150DC /* AboutViewController.swift */; };
+		BB94E9FF221836DF00B150DC /* BackEndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB94E9FE221836DF00B150DC /* BackEndViewController.swift */; };
+		BB94EA01221873E000B150DC /* Searched_Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB94EA00221873E000B150DC /* Searched_Data.swift */; };
+		BB94EA032218872B00B150DC /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB94EA022218872B00B150DC /* TableViewCell.swift */; };
+		BB94EA052218984F00B150DC /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB94EA042218984F00B150DC /* View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		543C912AF525D6887E2CDD46 /* Pods_Brokerage_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Brokerage_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EBFACA9A1C07F2343A9B9CD /* Pods-Brokerage_app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brokerage_app.debug.xcconfig"; path = "Target Support Files/Pods-Brokerage_app/Pods-Brokerage_app.debug.xcconfig"; sourceTree = "<group>"; };
+		B448F14E0CDD01503239FA9B /* Pods-Brokerage_app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brokerage_app.release.xcconfig"; path = "Target Support Files/Pods-Brokerage_app/Pods-Brokerage_app.release.xcconfig"; sourceTree = "<group>"; };
+		BB1A091F222722A5007A645F /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		BB1A092122272393007A645F /* collData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collData.swift; sourceTree = "<group>"; };
+		BB1A7A822218BC39001CB2B2 /* NewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewData.swift; sourceTree = "<group>"; };
 		BB94E9C62218354600B150DC /* Brokerage_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brokerage_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB94E9C92218354600B150DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB94E9CB2218354600B150DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,11 +56,13 @@
 		BB94E9D32218354700B150DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB94E9D52218354700B150DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB94E9DA2218354700B150DC /* Brokerage_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Brokerage_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB94E9DE2218354700B150DC /* Brokerage_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brokerage_appTests.swift; sourceTree = "<group>"; };
-		BB94E9E02218354700B150DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB94E9E52218354700B150DC /* Brokerage_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Brokerage_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB94E9E92218354800B150DC /* Brokerage_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brokerage_appUITests.swift; sourceTree = "<group>"; };
-		BB94E9EB2218354800B150DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB94E9F82218359A00B150DC /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		BB94E9FC221836C100B150DC /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		BB94E9FE221836DF00B150DC /* BackEndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackEndViewController.swift; sourceTree = "<group>"; };
+		BB94EA00221873E000B150DC /* Searched_Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Searched_Data.swift; sourceTree = "<group>"; };
+		BB94EA022218872B00B150DC /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		BB94EA042218984F00B150DC /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3954C4479844BAAAC88B56F4 /* Pods_Brokerage_app.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +91,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C6F03F928586E3C453174D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				543C912AF525D6887E2CDD46 /* Pods_Brokerage_app.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB926A8222291A5B008D9B10 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BB94EA022218872B00B150DC /* TableViewCell.swift */,
+				BB1A091F222722A5007A645F /* CollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		BB94E9BD2218354500B150DC = {
 			isa = PBXGroup;
 			children = (
 				BB94E9C82218354600B150DC /* Brokerage_app */,
-				BB94E9DD2218354700B150DC /* Brokerage_appTests */,
-				BB94E9E82218354700B150DC /* Brokerage_appUITests */,
 				BB94E9C72218354600B150DC /* Products */,
+				E1238C960AFD9206B025F844 /* Pods */,
+				4C6F03F928586E3C453174D1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,31 +132,54 @@
 			isa = PBXGroup;
 			children = (
 				BB94E9C92218354600B150DC /* AppDelegate.swift */,
-				BB94E9CB2218354600B150DC /* ViewController.swift */,
-				BB94E9CD2218354600B150DC /* Main.storyboard */,
-				BB94E9D02218354700B150DC /* Assets.xcassets */,
-				BB94E9D22218354700B150DC /* LaunchScreen.storyboard */,
+				BB94E9FA221835C500B150DC /* View */,
+				BB94E9F72218356E00B150DC /* Controller */,
+				BB94E9FB221835FD00B150DC /* Model */,
 				BB94E9D52218354700B150DC /* Info.plist */,
 			);
 			path = Brokerage_app;
 			sourceTree = "<group>";
 		};
-		BB94E9DD2218354700B150DC /* Brokerage_appTests */ = {
+		BB94E9F72218356E00B150DC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				BB94E9DE2218354700B150DC /* Brokerage_appTests.swift */,
-				BB94E9E02218354700B150DC /* Info.plist */,
+				BB94E9CB2218354600B150DC /* ViewController.swift */,
+				BB94E9FC221836C100B150DC /* AboutViewController.swift */,
+				BB94E9F82218359A00B150DC /* SearchViewController.swift */,
+				BB94E9FE221836DF00B150DC /* BackEndViewController.swift */,
 			);
-			path = Brokerage_appTests;
+			path = Controller;
 			sourceTree = "<group>";
 		};
-		BB94E9E82218354700B150DC /* Brokerage_appUITests */ = {
+		BB94E9FA221835C500B150DC /* View */ = {
 			isa = PBXGroup;
 			children = (
-				BB94E9E92218354800B150DC /* Brokerage_appUITests.swift */,
-				BB94E9EB2218354800B150DC /* Info.plist */,
+				BB94E9CD2218354600B150DC /* Main.storyboard */,
+				BB94E9D22218354700B150DC /* LaunchScreen.storyboard */,
+				BB94E9D02218354700B150DC /* Assets.xcassets */,
+				BB94EA042218984F00B150DC /* View.swift */,
 			);
-			path = Brokerage_appUITests;
+			path = View;
+			sourceTree = "<group>";
+		};
+		BB94E9FB221835FD00B150DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BB926A8222291A5B008D9B10 /* Cells */,
+				BB94EA00221873E000B150DC /* Searched_Data.swift */,
+				BB1A7A822218BC39001CB2B2 /* NewData.swift */,
+				BB1A092122272393007A645F /* collData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E1238C960AFD9206B025F844 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5EBFACA9A1C07F2343A9B9CD /* Pods-Brokerage_app.debug.xcconfig */,
+				B448F14E0CDD01503239FA9B /* Pods-Brokerage_app.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,9 +189,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB94E9EE2218354800B150DC /* Build configuration list for PBXNativeTarget "Brokerage_app" */;
 			buildPhases = (
+				6D81357DD3841116DC906B46 /* [CP] Check Pods Manifest.lock */,
 				BB94E9C22218354600B150DC /* Sources */,
 				BB94E9C32218354600B150DC /* Frameworks */,
 				BB94E9C42218354600B150DC /* Resources */,
+				8044D458A109F9410C718A43 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,13 +310,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6D81357DD3841116DC906B46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Brokerage_app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8044D458A109F9410C718A43 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Brokerage_app/Pods-Brokerage_app-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Brokerage_app/Pods-Brokerage_app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BB94E9C22218354600B150DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB1A092222272393007A645F /* collData.swift in Sources */,
+				BB1A0920222722A5007A645F /* CollectionViewCell.swift in Sources */,
+				BB1A7A832218BC39001CB2B2 /* NewData.swift in Sources */,
+				BB94EA052218984F00B150DC /* View.swift in Sources */,
+				BB94E9F92218359A00B150DC /* SearchViewController.swift in Sources */,
 				BB94E9CC2218354600B150DC /* ViewController.swift in Sources */,
+				BB94E9FD221836C100B150DC /* AboutViewController.swift in Sources */,
 				BB94E9CA2218354600B150DC /* AppDelegate.swift in Sources */,
+				BB94EA01221873E000B150DC /* Searched_Data.swift in Sources */,
+				BB94EA032218872B00B150DC /* TableViewCell.swift in Sources */,
+				BB94E9FF221836DF00B150DC /* BackEndViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +382,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB94E9DF2218354700B150DC /* Brokerage_appTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +389,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB94E9EA2218354800B150DC /* Brokerage_appUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +545,7 @@
 		};
 		BB94E9EF2218354800B150DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EBFACA9A1C07F2343A9B9CD /* Pods-Brokerage_app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +563,7 @@
 		};
 		BB94E9F02218354800B150DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B448F14E0CDD01503239FA9B /* Pods-Brokerage_app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
